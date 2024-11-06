@@ -6,9 +6,7 @@ def provjera_broja(broj):
     
 if __name__ == "__main__":
     try:
-        prvi_broj = int(input("Unesite prvi broj: "))
-        print(provjera_broja(prvi_broj))
-        drugi_broj = int(input("Unesite drugi broj: "))
-        print(provjera_broja(drugi_broj))
+        uneseni_broj = int(input("Unesite broj"))
+        print(provjera_broja(uneseni_broj))
     except ValueError:
         print("Unesena vrijednost nije broj.")       
