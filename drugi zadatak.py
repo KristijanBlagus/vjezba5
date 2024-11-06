@@ -12,3 +12,4 @@ if __name__ == "__main__":
         print(provjera_broja(drugi_broj))
     except ValueError:
         print("Unesena vrijednost nije broj.")
+        print("Izmjena")
